@@ -56,20 +56,18 @@ export default function Hero() {
               </a>
             </div>
 
-            <div className="flex items-center space-x-6 pt-4">
-              <div className="text-center">
-                <div className="text-3xl font-bold">8</div>
-                <div className="text-sm text-white/80">Max Students</div>
+            <div className="flex flex-wrap items-center gap-6 pt-4">
+              <div className="bg-white/20 backdrop-blur-md px-6 py-4 rounded-xl border border-white/30 text-center min-w-[120px]">
+                <div className="text-3xl font-bold text-white">8</div>
+                <div className="text-sm text-white">Max Students</div>
               </div>
-              <div className="h-12 w-px bg-white/30"></div>
-              <div className="text-center">
-                <div className="text-3xl font-bold">A1-C2</div>
-                <div className="text-sm text-white/80">All Levels</div>
+              <div className="bg-white/20 backdrop-blur-md px-6 py-4 rounded-xl border border-white/30 text-center min-w-[120px]">
+                <div className="text-3xl font-bold text-white">A1-C2</div>
+                <div className="text-sm text-white">All Levels</div>
               </div>
-              <div className="h-12 w-px bg-white/30"></div>
-              <div className="text-center">
-                <div className="text-3xl font-bold">100%</div>
-                <div className="text-sm text-white/80">Native Teachers</div>
+              <div className="bg-white/20 backdrop-blur-md px-6 py-4 rounded-xl border border-white/30 text-center min-w-[120px]">
+                <div className="text-3xl font-bold text-white">100%</div>
+                <div className="text-sm text-white">Native Teachers</div>
               </div>
             </div>
           </div>
