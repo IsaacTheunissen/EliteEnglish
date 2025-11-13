@@ -1,4 +1,4 @@
-import { BookOpen, Award, Users, User, Bus, CheckCircle, Sparkles } from 'lucide-react';
+import { BookOpen, Award, Users, User, Bus, CheckCircle, Sparkles, GraduationCap } from 'lucide-react';
 
 export default function Rates() {
   return (
@@ -18,73 +18,111 @@ export default function Rates() {
 
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-10 mb-16">
-            <div className="relative" id="general-english-pricing">
-              <div className="absolute -top-4 -left-4 w-full h-full bg-gradient-to-br from-[#1E88C7]/10 to-[#2BA3DB]/10 rounded-3xl"></div>
-              <div className="relative bg-white rounded-3xl shadow-2xl overflow-hidden border-2 border-gray-100">
-                <div className="bg-gradient-to-r from-[#1E88C7] to-[#2BA3DB] p-8 text-white">
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center space-x-4">
-                      <div className="bg-white/20 p-4 rounded-2xl backdrop-blur-sm">
-                        <BookOpen className="w-8 h-8 text-white" />
+            <div className="space-y-10">
+              <div className="relative" id="general-english-pricing">
+                <div className="absolute -top-4 -left-4 w-full h-full bg-gradient-to-br from-[#1E88C7]/10 to-[#2BA3DB]/10 rounded-3xl"></div>
+                <div className="relative bg-white rounded-3xl shadow-2xl overflow-hidden border-2 border-gray-100">
+                  <div className="bg-gradient-to-r from-[#1E88C7] to-[#2BA3DB] p-8 text-white">
+                    <div className="flex items-center justify-between">
+                      <div className="flex items-center space-x-4">
+                        <div className="bg-white/20 p-4 rounded-2xl backdrop-blur-sm">
+                          <BookOpen className="w-8 h-8 text-white" />
+                        </div>
+                        <div>
+                          <h3 className="text-3xl font-bold">General English / Business</h3>
+                          <p className="text-white/90">A1–C1</p>
+                        </div>
                       </div>
-                      <div>
-                        <h3 className="text-3xl font-bold">General English</h3>
-                        <p className="text-white/90">All levels from A1 to C2</p>
+                      <Sparkles className="w-10 h-10 opacity-50" />
+                    </div>
+                  </div>
+
+                  <div className="p-8 space-y-5">
+                    <div className="border-b-2 border-gray-100 pb-5">
+                      <div className="flex items-center space-x-2 mb-3">
+                        <Users className="w-5 h-5 text-[#1E88C7]" />
+                        <h4 className="text-lg font-bold text-gray-900">Group Classes</h4>
+                      </div>
+                      <div className="relative group">
+                        <div className="absolute -inset-0.5 bg-gradient-to-r from-[#1E88C7] to-[#2BA3DB] rounded-xl blur opacity-20 group-hover:opacity-30 transition-opacity"></div>
+                        <div className="relative p-4 bg-gradient-to-br from-[#1E88C7] to-[#2BA3DB] rounded-xl text-white">
+                          <div className="flex justify-between items-start">
+                            <div>
+                              <p className="font-semibold">10 hours</p>
+                              <p className="text-xs text-white/90 mt-0.5">Max 8 students</p>
+                            </div>
+                            <div className="text-right">
+                              <p className="text-2xl font-bold">R2,200</p>
+                              <p className="text-xs text-white/90">R220/hr</p>
+                            </div>
+                          </div>
+                          <div className="mt-2 pt-2 border-t border-white/20">
+                            <p className="text-xs text-white/90">Save 37% compared to private</p>
+                          </div>
+                        </div>
                       </div>
                     </div>
-                    <Sparkles className="w-10 h-10 opacity-50" />
+
+                    <div>
+                      <div className="flex items-center space-x-2 mb-3">
+                        <User className="w-5 h-5 text-[#1E88C7]" />
+                        <h4 className="text-lg font-bold text-gray-900">Private Lessons (Business)</h4>
+                      </div>
+                      <div className="space-y-3">
+                        <div className="p-4 bg-gray-50 rounded-xl border border-gray-200">
+                          <div className="flex justify-between items-center">
+                            <span className="text-gray-700 font-medium">5 hours</span>
+                            <div className="text-right">
+                              <p className="text-2xl font-bold text-gray-900">R1,750</p>
+                              <p className="text-xs text-gray-600">R350/hr</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="p-4 bg-gray-50 rounded-xl border border-gray-200">
+                          <div className="flex justify-between items-center">
+                            <span className="text-gray-700 font-medium">10 hours</span>
+                            <div className="text-right">
+                              <p className="text-2xl font-bold text-gray-900">R3,500</p>
+                              <p className="text-xs text-gray-600">R350/hr</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
+              </div>
 
-                <div className="p-8 space-y-5">
-                  <div>
-                    <div className="flex items-center space-x-2 mb-3">
-                      <User className="w-5 h-5 text-[#1E88C7]" />
-                      <h4 className="text-lg font-bold text-gray-900">Private Lessons</h4>
-                    </div>
-                    <div className="space-y-3">
-                      <div className="p-4 bg-gray-50 rounded-xl border border-gray-200">
-                        <div className="flex justify-between items-center">
-                          <span className="text-gray-700 font-medium">5 hours</span>
-                          <div className="text-right">
-                            <p className="text-2xl font-bold text-gray-900">R1,750</p>
-                            <p className="text-xs text-gray-600">R350/hr</p>
-                          </div>
+              <div className="relative">
+                <div className="absolute -top-4 -left-4 w-full h-full bg-gradient-to-br from-[#4DC4EC]/10 to-[#2BA3DB]/10 rounded-3xl"></div>
+                <div className="relative bg-white rounded-3xl shadow-2xl overflow-hidden border-2 border-gray-100">
+                  <div className="bg-gradient-to-r from-[#4DC4EC] to-[#2BA3DB] p-8 text-white">
+                    <div className="flex items-center justify-between">
+                      <div className="flex items-center space-x-4">
+                        <div className="bg-white/20 p-4 rounded-2xl backdrop-blur-sm">
+                          <GraduationCap className="w-8 h-8 text-white" />
+                        </div>
+                        <div>
+                          <h3 className="text-3xl font-bold">C2 Exam Preparation</h3>
+                          <p className="text-white/90">Advanced proficiency</p>
                         </div>
                       </div>
-
-                      <div className="p-4 bg-gray-50 rounded-xl border border-gray-200">
-                        <div className="flex justify-between items-center">
-                          <span className="text-gray-700 font-medium">10 hours</span>
-                          <div className="text-right">
-                            <p className="text-2xl font-bold text-gray-900">R3,500</p>
-                            <p className="text-xs text-gray-600">R350/hr</p>
-                          </div>
-                        </div>
-                      </div>
+                      <Sparkles className="w-10 h-10 opacity-50" />
                     </div>
                   </div>
 
-                  <div className="border-t-2 border-gray-100 pt-5">
+                  <div className="p-8">
                     <div className="flex items-center space-x-2 mb-3">
-                      <Users className="w-5 h-5 text-[#1E88C7]" />
-                      <h4 className="text-lg font-bold text-gray-900">Group Classes</h4>
+                      <User className="w-5 h-5 text-[#4DC4EC]" />
+                      <h4 className="text-lg font-bold text-gray-900">Private Lessons</h4>
                     </div>
-                    <div className="relative group">
-                      <div className="absolute -inset-0.5 bg-gradient-to-r from-[#1E88C7] to-[#2BA3DB] rounded-xl blur opacity-20 group-hover:opacity-30 transition-opacity"></div>
-                      <div className="relative p-4 bg-gradient-to-br from-[#1E88C7] to-[#2BA3DB] rounded-xl text-white">
-                        <div className="flex justify-between items-start">
-                          <div>
-                            <p className="font-semibold">10 hours</p>
-                            <p className="text-xs text-white/90 mt-0.5">Max 8 students</p>
-                          </div>
-                          <div className="text-right">
-                            <p className="text-2xl font-bold">R2,200</p>
-                            <p className="text-xs text-white/90">R220/hr</p>
-                          </div>
-                        </div>
-                        <div className="mt-2 pt-2 border-t border-white/20">
-                          <p className="text-xs text-white/90">Save 37% compared to private</p>
+                    <div className="p-4 bg-gray-50 rounded-xl border border-gray-200">
+                      <div className="flex justify-between items-center">
+                        <span className="text-gray-700 font-medium">10 hours weekly</span>
+                        <div className="text-right">
+                          <p className="text-2xl font-bold text-gray-900">R4,000</p>
+                          <p className="text-xs text-gray-600">R400/hr</p>
                         </div>
                       </div>
                     </div>
@@ -93,61 +131,63 @@ export default function Rates() {
               </div>
             </div>
 
-            <div className="relative" id="ielts-pricing">
-              <div className="absolute -top-4 -right-4 w-full h-full bg-gradient-to-br from-[#2BA3DB]/10 to-[#4DC4EC]/10 rounded-3xl"></div>
-              <div className="relative bg-white rounded-3xl shadow-2xl overflow-hidden border-2 border-gray-100">
-                <div className="bg-gradient-to-r from-[#2BA3DB] to-[#4DC4EC] p-8 text-white">
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center space-x-4">
-                      <div className="bg-white/20 p-4 rounded-2xl backdrop-blur-sm">
-                        <Award className="w-8 h-8 text-white" />
+            <div className="space-y-10">
+              <div className="relative" id="ielts-pricing">
+                <div className="absolute -top-4 -right-4 w-full h-full bg-gradient-to-br from-[#2BA3DB]/10 to-[#4DC4EC]/10 rounded-3xl"></div>
+                <div className="relative bg-white rounded-3xl shadow-2xl overflow-hidden border-2 border-gray-100">
+                  <div className="bg-gradient-to-r from-[#2BA3DB] to-[#4DC4EC] p-8 text-white">
+                    <div className="flex items-center justify-between">
+                      <div className="flex items-center space-x-4">
+                        <div className="bg-white/20 p-4 rounded-2xl backdrop-blur-sm">
+                          <Award className="w-8 h-8 text-white" />
+                        </div>
+                        <div>
+                          <h3 className="text-3xl font-bold">IELTS Preparation</h3>
+                          <p className="text-white/90">Achieve your target score</p>
+                        </div>
                       </div>
-                      <div>
-                        <h3 className="text-3xl font-bold">IELTS Preparation</h3>
-                        <p className="text-white/90">Achieve your target score</p>
-                      </div>
+                      <Sparkles className="w-10 h-10 opacity-50" />
                     </div>
-                    <Sparkles className="w-10 h-10 opacity-50" />
                   </div>
-                </div>
 
-                <div className="p-8 space-y-5">
-                  <div>
-                    <div className="flex items-center space-x-2 mb-3">
-                      <User className="w-5 h-5 text-[#2BA3DB]" />
-                      <h4 className="text-lg font-bold text-gray-900">Private Coaching</h4>
-                    </div>
-                    <div className="p-4 bg-gray-50 rounded-xl border border-gray-200">
-                      <div className="flex justify-between items-center">
-                        <span className="text-gray-700 font-medium">10 hours</span>
-                        <div className="text-right">
-                          <p className="text-2xl font-bold text-gray-900">R4,500</p>
-                          <p className="text-xs text-gray-600">R450/hr</p>
+                  <div className="p-8 space-y-5">
+                    <div className="border-b-2 border-gray-100 pb-5">
+                      <div className="flex items-center space-x-2 mb-3">
+                        <Users className="w-5 h-5 text-[#2BA3DB]" />
+                        <h4 className="text-lg font-bold text-gray-900">Group Training</h4>
+                      </div>
+                      <div className="relative group">
+                        <div className="absolute -inset-0.5 bg-gradient-to-r from-[#2BA3DB] to-[#4DC4EC] rounded-xl blur opacity-20 group-hover:opacity-30 transition-opacity"></div>
+                        <div className="relative p-4 bg-gradient-to-br from-[#2BA3DB] to-[#4DC4EC] rounded-xl text-white">
+                          <div className="flex justify-between items-start">
+                            <div>
+                              <p className="font-semibold">10 hours</p>
+                              <p className="text-xs text-white/90 mt-0.5">Max 8 students</p>
+                            </div>
+                            <div className="text-right">
+                              <p className="text-2xl font-bold">R3,000</p>
+                              <p className="text-xs text-white/90">R300/hr</p>
+                            </div>
+                          </div>
+                          <div className="mt-2 pt-2 border-t border-white/20">
+                            <p className="text-xs text-white/90">Save 33% compared to private</p>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
 
-                  <div className="border-t-2 border-gray-100 pt-5">
-                    <div className="flex items-center space-x-2 mb-3">
-                      <Users className="w-5 h-5 text-[#2BA3DB]" />
-                      <h4 className="text-lg font-bold text-gray-900">Group Training</h4>
-                    </div>
-                    <div className="relative group">
-                      <div className="absolute -inset-0.5 bg-gradient-to-r from-[#2BA3DB] to-[#4DC4EC] rounded-xl blur opacity-20 group-hover:opacity-30 transition-opacity"></div>
-                      <div className="relative p-4 bg-gradient-to-br from-[#2BA3DB] to-[#4DC4EC] rounded-xl text-white">
-                        <div className="flex justify-between items-start">
-                          <div>
-                            <p className="font-semibold">10 hours</p>
-                            <p className="text-xs text-white/90 mt-0.5">Max 8 students</p>
-                          </div>
+                    <div>
+                      <div className="flex items-center space-x-2 mb-3">
+                        <User className="w-5 h-5 text-[#2BA3DB]" />
+                        <h4 className="text-lg font-bold text-gray-900">Private Coaching</h4>
+                      </div>
+                      <div className="p-4 bg-gray-50 rounded-xl border border-gray-200">
+                        <div className="flex justify-between items-center">
+                          <span className="text-gray-700 font-medium">10 hours</span>
                           <div className="text-right">
-                            <p className="text-2xl font-bold">R3,000</p>
-                            <p className="text-xs text-white/90">R300/hr</p>
+                            <p className="text-2xl font-bold text-gray-900">R4,500</p>
+                            <p className="text-xs text-gray-600">R450/hr</p>
                           </div>
-                        </div>
-                        <div className="mt-2 pt-2 border-t border-white/20">
-                          <p className="text-xs text-white/90">Save 33% compared to private</p>
                         </div>
                       </div>
                     </div>
