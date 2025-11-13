@@ -5,8 +5,11 @@ export default function TermsAndConditions() {
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
-    <section id="terms" className="py-20 bg-gray-50">
-      <div className="container mx-auto px-4 max-w-5xl">
+    <section id="terms" className="py-20 bg-gray-50 relative overflow-hidden">
+      <div className="absolute top-20 left-0 w-72 h-72 bg-[#1E88C7]/5 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-20 right-0 w-96 h-96 bg-[#2BA3DB]/5 rounded-full blur-3xl"></div>
+      <div className="absolute top-1/2 left-1/4 w-64 h-64 bg-[#4DC4EC]/5 rounded-full blur-3xl"></div>
+      <div className="container mx-auto px-4 max-w-5xl relative z-10">
         <div className="text-center mb-16">
           <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-[#1E88C7] to-[#2BA3DB] rounded-2xl mb-6 shadow-xl">
             <FileText className="w-10 h-10 text-white" />
@@ -95,7 +98,7 @@ export default function TermsAndConditions() {
                   </div>
                   <div className="space-y-3 text-gray-700 leading-relaxed">
                     <p>
-                      <strong>Late-Coming:</strong> If you will be late, communicate with management immediately. Students more than 20 minutes late will not be allowed into group classes or will forfeit private classes.
+                      <strong>Late-Coming:</strong> If you are going to be late, communicate with management immediately. Students more than 20 minutes late will not be allowed into group classes or will forfeit private classes.
                     </p>
                     <p>
                       <strong>Group Classes:</strong> Lost time will not be recovered unless EE transport was at fault.
@@ -143,7 +146,7 @@ export default function TermsAndConditions() {
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Transport Terms</h3>
                 <div className="space-y-3 text-gray-700 leading-relaxed">
                   <p>
-                    <strong>Shared Transport:</strong> Only offered for shared classes with minimum 2 students within 20km radius. You can book at private rates until another student joins.
+                    <strong>Shared Transport:</strong> Only offered for shared classes with minimum 2 students within a 20km radius. You can book at private rates until another student joins.
                   </p>
                   <p>
                     <strong>Private Lessons:</strong> Only private transport rates available.
@@ -177,7 +180,7 @@ export default function TermsAndConditions() {
                     <strong>Maximum Break:</strong> Cannot exceed 2 weeks.
                   </p>
                   <p>
-                    <strong>Recovery Period:</strong> Postponed classes must be recovered within 30 days from return date.
+                    <strong>Recovery Period:</strong> Postponed classes must be recovered within 14 days (2 weeks) from return date.
                   </p>
                   <p className="bg-yellow-50 border-l-4 border-yellow-500 p-4 rounded-lg">
                     Failure to comply means management may cancel recovery of classes due to teacher availability or schedule changes.
