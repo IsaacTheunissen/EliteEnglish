@@ -31,9 +31,6 @@ export default function Header() {
             <button onClick={() => scrollToSection('services')} className="text-gray-700 hover:text-[#1E88C7] font-medium transition-colors">
               Services
             </button>
-            <button onClick={() => scrollToSection('why-choose-us')} className="text-gray-700 hover:text-[#1E88C7] font-medium transition-colors">
-              Why Choose Us
-            </button>
             <button onClick={() => scrollToSection('rates')} className="text-gray-700 hover:text-[#1E88C7] font-medium transition-colors">
               Rates
             </button>
@@ -71,9 +68,6 @@ export default function Header() {
             </button>
             <button onClick={() => scrollToSection('services')} className="text-gray-700 hover:text-[#1E88C7] font-medium py-2 text-left transition-colors">
               Services
-            </button>
-            <button onClick={() => scrollToSection('why-choose-us')} className="text-gray-700 hover:text-[#1E88C7] font-medium py-2 text-left transition-colors">
-              Why Choose Us
             </button>
             <button onClick={() => scrollToSection('rates')} className="text-gray-700 hover:text-[#1E88C7] font-medium py-2 text-left transition-colors">
               Rates
