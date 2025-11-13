@@ -13,44 +13,56 @@
   </url>
   <url>
     <loc>https://eliteenglish.co.za/#home</loc>
-    <lastmod>2025-11-07</lastmod>
+    <lastmod>2025-11-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://eliteenglish.co.za/#about</loc>
-    <lastmod>2025-11-07</lastmod>
+    <loc>https://eliteenglish.co.za/#services</loc>
+    <lastmod>2025-11-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://eliteenglish.co.za/#services</loc>
-    <lastmod>2025-11-07</lastmod>
+    <loc>https://eliteenglish.co.za/#why-choose-us</loc>
+    <lastmod>2025-11-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://eliteenglish.co.za/#rates</loc>
+    <lastmod>2025-11-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://eliteenglish.co.za/#about-us</loc>
+    <lastmod>2025-11-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://eliteenglish.co.za/#meet-the-team</loc>
+    <lastmod>2025-11-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://eliteenglish.co.za/#schedule</loc>
-    <lastmod>2025-11-07</lastmod>
+    <lastmod>2025-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://eliteenglish.co.za/#rates</loc>
-    <lastmod>2025-11-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://eliteenglish.co.za/#terms</loc>
+    <lastmod>2025-11-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://eliteenglish.co.za/#contact</loc>
-    <lastmod>2025-11-07</lastmod>
+    <lastmod>2025-11-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://eliteenglish.co.za/#terms</loc>
-    <lastmod>2025-11-07</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
   </url>
 </urlset>

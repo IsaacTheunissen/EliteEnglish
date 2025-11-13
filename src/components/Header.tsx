@@ -28,17 +28,23 @@ export default function Header() {
             <button onClick={() => scrollToSection('home')} className="text-gray-700 hover:text-[#1E88C7] font-medium transition-colors">
               Home
             </button>
-            <button onClick={() => scrollToSection('about')} className="text-gray-700 hover:text-[#1E88C7] font-medium transition-colors">
-              About Us
-            </button>
             <button onClick={() => scrollToSection('services')} className="text-gray-700 hover:text-[#1E88C7] font-medium transition-colors">
               Services
             </button>
-            <button onClick={() => scrollToSection('schedule')} className="text-gray-700 hover:text-[#1E88C7] font-medium transition-colors">
-              Schedule
+            <button onClick={() => scrollToSection('why-choose-us')} className="text-gray-700 hover:text-[#1E88C7] font-medium transition-colors">
+              Why Choose Us
             </button>
             <button onClick={() => scrollToSection('rates')} className="text-gray-700 hover:text-[#1E88C7] font-medium transition-colors">
               Rates
+            </button>
+            <button onClick={() => scrollToSection('about-us')} className="text-gray-700 hover:text-[#1E88C7] font-medium transition-colors">
+              About Us
+            </button>
+            <button onClick={() => scrollToSection('meet-the-team')} className="text-gray-700 hover:text-[#1E88C7] font-medium transition-colors">
+              Meet the Team
+            </button>
+            <button onClick={() => scrollToSection('schedule')} className="text-gray-700 hover:text-[#1E88C7] font-medium transition-colors">
+              Schedule
             </button>
             <button onClick={() => scrollToSection('terms')} className="text-gray-700 hover:text-[#1E88C7] font-medium transition-colors">
               T&Cs
@@ -63,17 +69,23 @@ export default function Header() {
             <button onClick={() => scrollToSection('home')} className="text-gray-700 hover:text-[#1E88C7] font-medium py-2 text-left transition-colors">
               Home
             </button>
-            <button onClick={() => scrollToSection('about')} className="text-gray-700 hover:text-[#1E88C7] font-medium py-2 text-left transition-colors">
-              About Us
-            </button>
             <button onClick={() => scrollToSection('services')} className="text-gray-700 hover:text-[#1E88C7] font-medium py-2 text-left transition-colors">
               Services
             </button>
-            <button onClick={() => scrollToSection('schedule')} className="text-gray-700 hover:text-[#1E88C7] font-medium py-2 text-left transition-colors">
-              Schedule
+            <button onClick={() => scrollToSection('why-choose-us')} className="text-gray-700 hover:text-[#1E88C7] font-medium py-2 text-left transition-colors">
+              Why Choose Us
             </button>
             <button onClick={() => scrollToSection('rates')} className="text-gray-700 hover:text-[#1E88C7] font-medium py-2 text-left transition-colors">
               Rates
+            </button>
+            <button onClick={() => scrollToSection('about-us')} className="text-gray-700 hover:text-[#1E88C7] font-medium py-2 text-left transition-colors">
+              About Us
+            </button>
+            <button onClick={() => scrollToSection('meet-the-team')} className="text-gray-700 hover:text-[#1E88C7] font-medium py-2 text-left transition-colors">
+              Meet the Team
+            </button>
+            <button onClick={() => scrollToSection('schedule')} className="text-gray-700 hover:text-[#1E88C7] font-medium py-2 text-left transition-colors">
+              Schedule
             </button>
             <button onClick={() => scrollToSection('terms')} className="text-gray-700 hover:text-[#1E88C7] font-medium py-2 text-left transition-colors">
               Terms & Conditions

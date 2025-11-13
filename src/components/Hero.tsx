@@ -62,8 +62,8 @@ export default function Hero() {
                 <div className="text-sm text-white">Max Students</div>
               </div>
               <div className="bg-white/20 backdrop-blur-md px-6 py-4 rounded-xl border border-white/30 text-center min-w-[120px]">
-                <div className="text-3xl font-bold text-white">A1-C2</div>
-                <div className="text-sm text-white">All Levels</div>
+                <div className="text-3xl font-bold text-white">A1-C1</div>
+                <div className="text-sm text-white">C2 Private Classes</div>
               </div>
               <div className="bg-white/20 backdrop-blur-md px-6 py-4 rounded-xl border border-white/30 text-center min-w-[120px]">
                 <div className="text-3xl font-bold text-white">100%</div>
