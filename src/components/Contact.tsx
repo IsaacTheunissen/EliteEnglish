@@ -168,7 +168,7 @@ export default function Contact() {
         <div className="mt-12 bg-white p-6 rounded-xl shadow-lg max-w-6xl mx-auto">
           <div className="aspect-video w-full bg-gray-200 rounded-lg overflow-hidden">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3311.4446789!2d18.4657!3d-34.0296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc5d6f6f6f6f6f%3A0x1234567890!2s67%20Main%20Rd%2C%20Diep%20River%2C%20Cape%20Town!5e0!3m2!1sen!2sza!4v1234567890"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.7789!2d18.46234!3d-34.05058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc5d5e8b8b8b8b%3A0x1234567890!2s2%20Fairdale%20Rd%2C%20Diep%20River%2C%20Cape%20Town%2C%207800!5e0!3m2!1sen!2sza!4v1234567890"
               width="100%"
               height="100%"
               style={{ border: 0 }}
