@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail, MessageSquare } from 'lucide-react';
+import { MapPin, Phone, Mail, MessageSquare, Instagram, Facebook } from 'lucide-react';
 
 export default function Contact() {
   return (
@@ -24,7 +24,7 @@ export default function Contact() {
                 <div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">Our Location</h3>
                   <p className="text-gray-700 leading-relaxed">
-                    67 Main Rd, Diep River<br />
+                    2 Fairdale Road, Diep River<br />
                     Cape Town, South Africa
                   </p>
                   <p className="text-sm text-gray-600 mt-2">
@@ -42,10 +42,10 @@ export default function Contact() {
                 <div className="flex-1">
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">Phone</h3>
                   <a
-                    href="tel:+27718838520"
+                    href="tel:+27765193780"
                     className="text-[#1E88C7] hover:text-[#1670A9] text-lg font-medium transition-colors"
                   >
-                    +27 71 883 8520
+                    +27 76 519 3780
                   </a>
                   <p className="text-sm text-gray-600 mt-2">
                     Call us during business hours
@@ -62,7 +62,7 @@ export default function Contact() {
                 <div className="flex-1">
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">WhatsApp</h3>
                   <a
-                    href="https://wa.me/27718838520"
+                    href="https://wa.me/27765193780"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-[#1E88C7] hover:text-[#1670A9] text-lg font-medium transition-colors"
@@ -124,7 +124,7 @@ export default function Contact() {
 
             <div className="space-y-3">
               <a
-                href="https://wa.me/27718838520"
+                href="https://wa.me/27765193780"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full bg-white text-[#1E88C7] px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-all text-center shadow-lg hover:shadow-xl"
@@ -132,7 +132,7 @@ export default function Contact() {
                 WhatsApp Us Now
               </a>
               <a
-                href="tel:+27718838520"
+                href="tel:+27765193780"
                 className="block w-full bg-white/10 backdrop-blur-sm text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/20 transition-all text-center border-2 border-white/30 hover:border-white/50"
               >
                 Call Us
@@ -140,9 +140,27 @@ export default function Contact() {
             </div>
 
             <div className="mt-8 pt-8 border-t border-white/20">
-              <p className="text-sm text-white/80 text-center">
-                Social media coming soon: Instagram | Facebook | LinkedIn
-              </p>
+              <p className="text-sm font-semibold mb-3 text-center">Follow Us</p>
+              <div className="flex justify-center space-x-4">
+                <a
+                  href="https://www.instagram.com/elite.english.institute?igsh=MWJmamtscWp0cHg0cQ=="
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white hover:text-white/80 transition-colors"
+                  aria-label="Instagram"
+                >
+                  <Instagram className="w-6 h-6" />
+                </a>
+                <a
+                  href="https://www.facebook.com/share/1A7bUQxzwS/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white hover:text-white/80 transition-colors"
+                  aria-label="Facebook"
+                >
+                  <Facebook className="w-6 h-6" />
+                </a>
+              </div>
             </div>
           </div>
         </div>

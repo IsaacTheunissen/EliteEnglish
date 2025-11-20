@@ -1,4 +1,4 @@
-import { GraduationCap } from 'lucide-react';
+import { Instagram, Facebook } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -52,11 +52,11 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
             <ul className="space-y-2 text-gray-400">
-              <li>67 Main Rd, Diep River</li>
+              <li>2 Fairdale Road, Diep River</li>
               <li>Cape Town, South Africa</li>
               <li>
-                <a href="tel:+27718838520" className="hover:text-[#2BA3DB] transition-colors">
-                  +27 71 883 8520
+                <a href="tel:+27765193780" className="hover:text-[#2BA3DB] transition-colors">
+                  +27 76 519 3780
                 </a>
               </li>
               <li>
@@ -65,6 +65,29 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
+            <div className="mt-6">
+              <h4 className="text-sm font-semibold mb-3">Follow Us</h4>
+              <div className="flex space-x-4">
+                <a
+                  href="https://www.instagram.com/elite.english.institute?igsh=MWJmamtscWp0cHg0cQ=="
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-[#2BA3DB] transition-colors"
+                  aria-label="Instagram"
+                >
+                  <Instagram className="w-6 h-6" />
+                </a>
+                <a
+                  href="https://www.facebook.com/share/1A7bUQxzwS/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-[#2BA3DB] transition-colors"
+                  aria-label="Facebook"
+                >
+                  <Facebook className="w-6 h-6" />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
 

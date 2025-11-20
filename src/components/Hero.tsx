@@ -46,7 +46,7 @@ export default function Hero() {
                 <Award className="w-5 h-5 group-hover:rotate-12 transition-transform" />
               </button>
               <a
-                href="https://wa.me/27718838520"
+                href="https://wa.me/27765193780"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white/10 backdrop-blur-sm text-white px-8 py-4 rounded-xl font-semibold hover:bg-white/20 transition-all border-2 border-white/30 hover:border-white/50 flex items-center justify-center space-x-2"

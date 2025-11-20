@@ -262,15 +262,6 @@ export default function Rates() {
               </div>
             </div>
           </div>
-
-          <div className="relative">
-            <div className="absolute inset-0 bg-gradient-to-r from-red-500 to-orange-500 rounded-2xl blur-xl opacity-20"></div>
-            <div className="relative bg-gradient-to-r from-red-500 to-orange-500 p-8 rounded-2xl text-white text-center shadow-xl">
-              <p className="text-lg font-semibold">
-                <strong className="text-xl">Important:</strong> No payment refund policy. All fees are non-refundable. Classes may be rescheduled within specified terms and conditions at the academy's discretion.
-              </p>
-            </div>
-          </div>
         </div>
       </div>
     </section>

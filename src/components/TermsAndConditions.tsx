@@ -219,7 +219,7 @@ export default function TermsAndConditions() {
                 Email Us
               </a>
               <a
-                href="https://wa.me/27718838520"
+                href="https://wa.me/27765193780"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white/10 backdrop-blur-sm text-white px-8 py-3 rounded-xl font-semibold hover:bg-white/20 transition-all text-center border-2 border-white/30"
