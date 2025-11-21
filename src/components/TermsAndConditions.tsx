@@ -19,7 +19,7 @@ export default function TermsAndConditions() {
               <h2 className="text-5xl font-bold text-gray-900 mb-4">Terms & Conditions</h2>
               <div className="w-24 h-1.5 bg-gradient-to-r from-[#1E88C7] to-[#2BA3DB] mx-auto rounded-full mb-6"></div>
               <p className="text-xl text-gray-600">
-                Please read these terms carefully before enrolling
+                Please read carefully before enrolling
               </p>
             </div>
 
@@ -157,7 +157,7 @@ export default function TermsAndConditions() {
                     <strong>Shared Transport Pickup:</strong> You'll receive a pickup time and be contacted before driver arrives. Maximum 5-minute wait to avoid class delays.
                   </p>
                   <p>
-                    <strong>Private Transport:</strong> Driver will wait if you're late, but your class ends at the scheduled time (no time extension).
+                    <strong>Private Transport:</strong> Driver will wait for you (within limits), but your class will end at the scheduled time (no time extensions).
                   </p>
                   <p className="bg-gray-50 border-l-4 border-gray-400 p-4 rounded-lg">
                     All transport changes must be communicated to and approved by management only. Date, time, or route changes may not be made without management's express knowledge.

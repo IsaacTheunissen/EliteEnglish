@@ -12,8 +12,8 @@ export default function MeetTheTeam() {
         <div className="max-w-5xl mx-auto bg-gradient-to-br from-[#1E88C7] to-[#2BA3DB] rounded-3xl shadow-2xl p-12">
           <div className="grid md:grid-cols-3 gap-10">
             {[
-              { firstName: 'Stephen', lastName: 'Theunissen', role: 'Director', image: '/image.png' },
-              { firstName: 'Clint', lastName: 'Van Reenen', role: 'Director', image: '/image copy.png' },
+              { firstName: 'Stephen', lastName: 'Theunissen', role: 'Director & Senior Teacher', image: '/image.png' },
+              { firstName: 'Clint', lastName: 'Van Reenen', role: 'Director & Transport Manager', image: '/image copy.png' },
               { firstName: 'Isaac', lastName: 'Theunissen', role: 'Operations Manager', image: '/image copy copy.png' }
             ].map((member, index) => (
               <div key={index} className="text-center group">

@@ -40,7 +40,7 @@ export default function About() {
                   <div>
                     <h3 className="text-2xl font-semibold text-gray-900 mb-3">Personalized Approach</h3>
                     <p className="text-gray-700 leading-relaxed">
-                      We conduct in-depth needs analysis for each student. Our trained staff understands that learners from all countries share similar challenges and provides individualized guidance to fast-track your learning.
+                      We conduct an in-depth need analysis for each student. Our trained staff understands that learners from different countries share similar challenges and provides individualized guidance to fast-track your learning.
                     </p>
                   </div>
                 </div>

@@ -149,7 +149,7 @@ export default function Services() {
                 <div className="bg-white/10 backdrop-blur-sm p-8 rounded-2xl border border-white/20 hover:bg-white/15 transition-all transform hover:scale-105">
                   <Briefcase className="w-10 h-10 mb-4" />
                   <h4 className="font-bold text-xl mb-3">Business English</h4>
-                  <p className="text-white/90 leading-relaxed">Specialized courses for professionals needing English in business contexts, presentations, negotiations, and corporate communications. Includes preparation for interviews, as it is something commonly asked.</p>
+                  <p className="text-white/90 leading-relaxed">Specialized courses for professionals needing English in business contexts, presentations, negotiations, and corporate communications. Includes preparation for interviews, as it is something commonly asked for.</p>
                 </div>
 
                 <div className="bg-white/10 backdrop-blur-sm p-8 rounded-2xl border border-white/20 hover:bg-white/15 transition-all transform hover:scale-105">
